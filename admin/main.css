@@ -1,0 +1,223 @@
+
+/* CSS Document */
+/*全局样式*/
+/* CSS Document power by 铁是锅的 249287090@qq.com*/
+
+
+html{margin:0px;padding:0px;text-align:center; }
+body{margin-right:auto;margin-left:auto; margin-top:0px; padding:0; font-size:12px;font-family:Verdana;}
+img{ border:0}
+*{margin:0; padding:0; font-family:Arial, Helvetica, sans-serif; }
+label{float:left;width: 80px;text-align:right; font-weight: bold;}
+form{margin:0px}
+br{clear: left;}
+
+
+
+.clear    {clear:both;}
+.none     {clear:both; display:none;}
+.center  {MARGIN-RIGHT: auto; MARGIN-LEFT: auto;}
+ 
+.inputtext{border:1px solid #9496a2;font-size:14px;text-align:center; color:#333333;height:21px;}
+
+
+
+ul{float:left;margin:0;padding:0;list-style:none;}
+li {text-align:left;list-style-type:none;line-height:18px;}
+.width30p{width:30%;}
+.width90p{width:90%;}
+
+   /*框架*/
+   .main{clear:both;width:100%;margin-right:auto;margin-left:auto;padding:0;margin-top:0px;}
+   .space_line{ clear:both;height:auto !important; height:5px;min-height:5px;margin-right:auto;margin-left:auto; font-size:0; line-height:0}
+
+.box_admin{clear:both;width:60%;float:left;margin-right:auto;margin-left:auto;padding-left:200px;margin-top:0px;text-align:left;}
+ 
+
+.listadmin{clear:both;width:600px;float:left;padding-left:160px;}
+.listadmin ul{width:580px;float:left;padding:0;}
+.listadmin li{width:120px;float:left;padding:0;border-bottom:1px solid;}
+/**************/
+
+
+ 
+table {
+font: 12px Tahoma, Verdana;
+color: #000000;
+LINE-HEIGHT: 14pt;
+empty-cells: show;
+border-collapse: separate !important;
+border-collapse: collapse;
+}
+
+table.TabMain {
+  background-color: #7AC4EA;
+}
+
+td.TabHead {
+  color: #154ba0;
+  padding-left: 10px;
+	filter:	progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr=#f5fbff, EndColorStr=#7AC4EA);
+}
+
+td.NavTab {
+  color: #154ba0;
+  padding-left: 10px;
+}
+
+td.smallFont{
+  font: 11px Tahoma, Verdana;
+}
+span.smallFont{
+  font: 11px Tahoma, Verdana;
+}
+
+td.TabBody {
+  background-color: #FFFFFF;
+}
+
+tr.row {
+width: 100%;
+border: none;
+background: #FFFFFF;
+empty-cells: show;
+}
+tr.row1 {
+width: 100%;
+border: none;
+background: #F5FBFF;
+empty-cells: show;
+}
+
+input.InputBox {
+font: 12px Tahoma, Verdana;
+color: #333333;
+font-weight: normal;
+background-color: #F5FBFF;
+border: 1px solid #7AC4EA;
+}
+
+input.Btn {
+font: 12px Tahoma, Verdana;
+	filter:	progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr=#ffffff, EndColorStr=#7AC4EA);
+	cursor:	hand;
+	padding-left: 5px;
+	padding-right: 5px;
+	border:	1px solid #7AC4EA;
+}
+input.button {
+font: 12px Tahoma, Verdana;
+	filter:	progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr=#ffffff, EndColorStr=#336699);
+	cursor:	hand;
+	padding-left: 0px;
+	padding-right: 0px;
+	border:	1px solid #7AC4EA;
+}
+
+textarea.InputBox {
+font: 12px Tahoma, Verdana;
+color: #333333;
+font-weight: normal;
+background-color: #F5FBFF;
+border: 1px solid #7AC4EA;
+}
+
+a {
+text-decoration: none;
+color: #154BA0;
+}
+a:hover {
+text-decoration: underline;
+}
+
+form {
+margin: 0px;
+padding: 0px;
+}
+div.msgborder {
+padding: 0px;
+width: 280px;
+height: 250px;
+border: 1px solid #7AC4EA;
+background: #FFFFFF;
+
+}
+
+div.msgbox {
+padding: 0px;
+border: 1px solid #dedeb8;
+background: #ffffd9;
+color: #154ba0;
+}
+
+div.msgborderv {
+padding: 2px;
+width: 240px;
+border: 1px solid #FFFFFF;
+background: #FFFFFF;
+
+}
+
+div.p_bar {
+margin: 1px 0px;
+clear: both;
+}
+
+a.p_input {
+border: 0px;
+padding: 0px;
+width: 40px;
+height: 16px !important;
+height: 15px;
+margin: 0px;
+background: #FFFFFF;
+}
+a.p_total {
+background-color: #F5FBFF;
+border: 1px solid #86B9D6;
+border-right: 0px solid #86B9D6;
+font-weight: bold;
+}
+a.p_pages {
+background-color: #F5FBFF;
+border: 1px solid #86B9D6;
+margin-right:1px;
+vertical-align: middle;
+font-weight: bold;
+}
+a.p_num {
+background-color: #FFFFFF;
+border: 1px solid #DEDEB8;
+margin-right:1px;
+vertical-align: middle;
+}
+a:hover.p_num  {
+background-color: #F5FBFF;
+border: 1px solid #86B9D6;
+text-decoration: none;
+}
+a.p_redirect {
+background-color: #FFFFFF;
+border: 1px solid #DEDEB8;
+margin-right:1px;
+font-size: 11px !important;
+font-size: 13px;
+}
+a:hover.p_redirect {
+background-color: #F5FBFF;
+border: 1px solid #86B9D6;
+text-decoration: none;
+}
+a.p_curpage {
+margin-right:1px;
+border: 1px solid #DEDEB8;
+vertical-align: middle;
+background-color: #FFFFD9;
+color: #92A05A;
+font-weight: bold;
+}
+input.lightbutton {
+background: #FFFFFF;
+border: 1px solid #BBE9FF;
+color: #154BA0;
+}

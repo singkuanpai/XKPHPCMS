@@ -1,0 +1,9 @@
+body,a,table,div,span,td,th,input,select{Color:#000000;}
+body {background-color:#FFFFFF;SCROLLBAR-BASE-COLOR:#E0E0E0}
+textarea{
+font: 12px Tahoma, Verdana;
+color: #333333;
+font-weight: normal;
+background-color: #F5FBFF;
+border: 1px solid #7AC4EA;
+}

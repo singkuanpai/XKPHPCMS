@@ -1,0 +1,12 @@
+.baise {
+	FONT-SIZE: 12px; COLOR: #ffffff; FONT-FAMILY: "宋体"; TEXT-DECORATION: none
+}
+.hei {
+	FONT-SIZE: 13px; COLOR: #000000; FONT-FAMILY: "宋体"; TEXT-DECORATION: none
+}
+A {
+	FONT-SIZE: 12px; COLOR: #000000; FONT-FAMILY: "宋体"; TEXT-DECORATION: none
+}
+A:hover {
+	FONT-SIZE: 12px; COLOR: #ff6600; FONT-FAMILY: "宋体"; TEXT-DECORATION: underline
+}
